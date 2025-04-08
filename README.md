@@ -1,76 +1,95 @@
 # BabyBloom AI
 
-**BabyBloom AI** is a mobile-first React + Tailwind app designed for new parents to track their baby's health and development using AI-powered tools.
+**BabyBloom AI** is a mobile-first baby and mom health companion that blends AI, journaling, and tracking to empower new parents. Designed with care for Southeast Asian markets, the app includes baby growth tracking, cry analysis, feeding/sleep logging, diaper image detection, food safety analysis for moms, and postpartum support — all wrapped in a delightful and local-first UX.
 
 ---
 
-## 🌟 Features
+##  Key Features
 
 ### 👶 Baby Dashboard
-- **Feeding Tracker** (Time + Side)
-- **Sleep Tracker**
-- **Diaper Change Logger** with photo input and AI stool analysis
-- **Growth Tracker** (Weight, Height, Head Circumference with ECharts visualization)
-- **Vaccination Reminders**
-- **Cry Translator** (AI-generated reason + confidence level)
+- Breastfeeding timer & side selector
+- Sleep duration logger
+- Diaper change tracker with AI stool analysis (image-based)
+- Growth tracking (weight, height, head) with visual charts
+- Vaccination reminders
+- Cry Translator using simulated AI sentiment recognition
+- Health and food AI shortcuts
 
 ### 👩 Mom Dashboard
-- **Mood Tracker** (slider with emoji-based feedback)
-- **Voice + Text Journaling**
-- **AI Wellness Coach** (text prompt support for postpartum issues)
-- **Sleep Summary**
-- **Postpartum Recovery Progress** (Emotional, Physical, Breastfeeding)
+- Mood tracker with emoji slider
+- Journal with voice-to-text and emotional context
+- Postpartum recovery tracker (physical, emotional, breastfeeding)
+- Sleep summary and optimization
+- AI Wellness Chatbot for mental health support
 
-### 👥 Community
-- Group chats based on location or baby's age
-- Expert Q&A with pediatricians and consultants
-- Invite friends with referral rewards
+### 👥 Community Features
+- Group-based community by month, location, or parenting stage
+- Expert Q&A from pediatricians/lactation consultants
+- Invite system with referral codes and bonuses
 
-### ⚙️ Profile
-- Account & subscription management
+### Profile + Settings
 - Add/manage family members
+- Language, notifications, and upgrade options
 
 ---
 
-## 🛠 Tech Stack
+## 🧠 AI-Powered Modules
 
-| Area            | Tech Used                  |
-|------------------|----------------------------|
-| Frontend         | React, TypeScript          |
-| Styling          | Tailwind CSS               |
-| Charts           | Apache ECharts             |
-| Icons            | Font Awesome               |
-| AI Integration   | Simulated in frontend (planned backend integration for v1.1) |
-| State Management | useState + useEffect       |
+- **Cry Translator:** Simulated analysis of baby cries (reason + confidence %)
+- **Food Analyzer:** Nutritional + suitability analysis for pregnancy/postpartum
+- **Diaper AI:** Stool analysis using color, consistency, and image inputs
+- **Chat AI:** AI wellness coach for postpartum mental/emotional health
+- **Growth Chart AI:** Percentile predictions and smart feedback
 
-## 🚀 How to Run
+> Note: AI functions are currently simulated but designed to integrate with real APIs in production.
 
-1. Clone the repo
-2. Install dependencies:
+---
+
+## Tech Stack
+
+| Category      | Tech Used                    |
+|---------------|------------------------------|
+| Frontend      | React + TypeScript           |
+| Styling       | Tailwind CSS                 |
+| Charting      | ECharts                      |
+| Icons         | FontAwesome                  |
+| State Mgmt    | useState, useEffect          |
+| AI Modules    | Placeholder simulations      |
+| Data Storage  | In-memory (to be integrated with Firebase or Supabase in v1.1) |
+
+
+---
+
+## Setup Instructions
+
+1. Clone the repo:
    ```bash
-   npm install
+   git clone https://github.com/your-org/babybloom-ai.git
+   cd babybloom-ai
 
-## Run the app locally:
+2. Install dependencies:
+
 bash
-Copy
-Edit
+npm install
+
+3. Run the app:
+
+bash
 npm start
-Visit http://localhost:3000
 
-Note: Tailwind CSS must be set up in your dev environment. This repo currently focuses on frontend only.
+4. Visit http://localhost:3000
 
-## AI Features
-Planned backend integration for:
-Cry audio classification
-Diaper image analysis (stool analysis)
-Chatbot for mom wellness and parenting support
+Tailwind CSS is required — ensure it is set up in your dev environment.
 
 ## Future Enhancements
 Firebase backend
-Real-time chat with pediatricians
-Secure login and profile storage
-Multi-language support (Bahasa Indonesia, Thai, Vietnamese, Tagalog)
-AI feedback loop based on user logs
 
+Real-time chat with pediatricians
+
+Secure login and profile storage
+
+Multi-language support (Bahasa, Thai, Vietnamese, Tagalog)
+
+AI feedback loop based on user logs
 
 
