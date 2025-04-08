@@ -70,12 +70,12 @@
 2. Install dependencies:
 
 ```bash
-npm install
+   npm install
 
 3. Run the app:
 
 ```bash
-npm start
+   npm start
 
 4. Visit http://localhost:3000
 
