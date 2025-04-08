@@ -68,13 +68,11 @@
    cd babybloom-ai
 
 2. Install dependencies:
-
-```bash
+   ```bash
    npm install
 
 3. Run the app:
-
-```bash
+   ```bash
    npm start
 
 4. Visit http://localhost:3000
